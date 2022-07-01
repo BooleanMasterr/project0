@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    margin-top: -50px;
+    text-align: center;
+}
+
+.form-input {
+    height: 40px;
+    width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding-left: 40px;
+
+}   
+
+input  {
+    display: inline-block;
+}
+
+.advanced-input {
+    height: 30px;
+    width: 400px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 5px;
+    outline: whitesmoke;
+}
+
+.advanced-btn:focus {
+    border: 1px blue;
+}
+
+.form-input:focus {
+    outline: none;
+}
+
+.form-input:hover {
+    box-shadow: 2px 2px 5px lightgray;
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+.google-search {
+    border: none;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    color: #000;
+    height: 40px;
+    width: 110px;
+}
+
+.google-search:hover {
+    box-shadow: 2px 2px #ddd;
+}
+
+.google-search {
+    margin-right: 10px;
+}
+
+
+.link-2,
+.link-1 {
+    position: absolute;
+    right: 30px;
+    text-decoration: none;
+    color: gray;
+    top: 20px;
+}
+
+.link-2 {
+    right: 150px;
+}
+
+.link-2:hover,
+.link-1:hover {
+    color: gray;
+    text-decoration: underline gray;
+}
+
+
+.logo {
+    margin-top: -20px;
+}
+
+.advanced-btn {
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 10px;
+    width: fit-content;
+    height:fit-content;
+    font-weight: bold;
+    margin-bottom: 40px;
+    position:inherit;
+    transition: all 0.2s ease-in;
+}
+
+.advanced-btn:hover {
+    transition: all 0.2s ease-in;
+    background-color: #8AB3F8;
+}
+
+
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+
+form i {
+    position: absolute;
+}
